@@ -6,7 +6,7 @@ bid_qty= 200
 ask_qty= 50
 
 bids=[(bid_price, bid_qty)]
-asks=[(ask_price, ask_qty)]\
+asks=[(ask_price, ask_qty)]
 
 #mid-price and micro-price
 mid_price=[(bid_price+ask_price)/2]

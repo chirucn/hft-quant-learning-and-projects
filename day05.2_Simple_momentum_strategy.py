@@ -4,7 +4,7 @@ import numpy as np
 prices= np.array([100,102,105,98,90,110,115, 120,104,108])
 
 # Computation of Daily Returns calculation
-returns= (prices[1:]/prices[:-1])
+returns= (prices[1:] - prices[:-1]) / prices[:-1]
 
 #Define signal: 1 for Buy, -1 for Sell
 signals= np.where(returns>0, 1, -1)

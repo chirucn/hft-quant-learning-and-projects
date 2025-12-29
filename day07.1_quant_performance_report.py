@@ -15,8 +15,8 @@ df["MA_20"]= df["Close"].rolling(window=20).mean()
 df["MA_200"]= df["Close"].rolling(window=200).mean()
 
 df["Signal"]=0
-df.loc[df["MA_20"] > df["MA_200"], "Signal"]=-1   # Buy Signal
-df.loc[df["MA_20"] < df["MA_200"], "Signal"]= -1  # Sell Signal
+df.loc[df["MA_20"] > df["MA_200"], "Signal"]=1   # Buy Signal
+df.loc[df["MA_20"] < df["MA_200"], "Signal"]=-1  # Sell Signal
 
 # -----------------------------
 # 3. Returns
