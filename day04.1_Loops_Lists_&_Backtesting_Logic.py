@@ -16,4 +16,4 @@ print(len(prices))#length of list
 
 #looping through list
 for p in prices:
-    print("price:", p)
+    print("price:", p) 
