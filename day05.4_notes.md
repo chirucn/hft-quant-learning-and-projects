@@ -4,7 +4,19 @@ What is NumPy and why it’s used in quant trading?
     Vectorized computation (no slow loops)
 
     Quants use numpy to measure volatility, risk, and average performance.
+
  Difference between lists and arrays
+    | Feature    | **List**       | **Array (NumPy)**  |
+    | ---------- | -------------- | ------------------ |
+    | Built-in?  | ✅ Yes         | ❌ No (needs NumPy) |
+    | Data types | Mixed allowed  | Same type only     |
+    | Speed      | Slower         | Much faster        |
+    | Memory     | More           | Less               |
+    | Math ops   | Manual loops   | Vectorized         |
+    | Used in    | General coding | Quant / ML / HFT   |
+
+Used in	General coding	Quant / ML / HFT
+
 
 What is vectorization?
     Data vectorization is the process of converting various types of data, such as text, images, or structured data, into numerical vectors

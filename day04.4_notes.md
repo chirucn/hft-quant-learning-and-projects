@@ -12,10 +12,10 @@ Difference between for and while
 
 
 What is a list and how to iterate it
-    List are the array that stores the multiple data types
+    List are the array that storta types
     To iterate lists we use "for" loop
 
-Screenshot or summary of your backtest output
+Screenshot or summary of your backteses the multiple dat output
 ![alt text][def]
 
 [def]: image.png
